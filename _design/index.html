@@ -1,0 +1,21 @@
+---
+layout: default
+title: design
+permalink: /design/main/
+---
+
+
+<ul>
+{% for design in site.design %}
+
+<li>
+  <figure>
+    <img src="{{design.img}}">
+    <figcaption>
+<!--       <a href="{{design.url | relative_url }}">{{design.title}}</a> --> /:title.html
+    </figcaption>
+  </figure>
+  </li>
+
+{% endfor %}
+</ul>

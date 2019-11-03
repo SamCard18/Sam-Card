@@ -1,0 +1,6 @@
+---
+layout: default
+portfolio-image: https://www.fillmurray.com/600/200
+---
+
+<img src="{{page.portfolio-image}}" />
